@@ -6,7 +6,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
      "build:client": "cd client && npm install && npm run build",
-  "build": "echo 'No build step needed"
+  "build": "npm install && npm run build:client"
   },
   "keywords": [],
   "author": "",
@@ -27,5 +27,3 @@
     "multer": "^1.4.5-lts.1"
   }
 }
-
-
